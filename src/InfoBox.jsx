@@ -18,9 +18,6 @@ const COLD_URL="https://plus.unsplash.com/premium_photo-1671127303910-754ac2224c
     
     return(
         <div className="InfoBox">
-                  <h1>Search weather app</h1>
-                  <br />
-                  <br/>
                  <h1>WeatherInfo-{info.weather}</h1>
                  <div className="cardContainer">
                   <Card sx={{ maxWidth: 345 }}>
